@@ -1,0 +1,9 @@
+language: generic
+env:
+  global:
+      
+deploy:
+  provider: script
+  script: bash scripts/build.sh
+  on:
+    branch: master
