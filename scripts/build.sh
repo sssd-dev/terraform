@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 cd azure/vm_setup
 chmod +x ../../binaries/terraform_linux
 ../../binaries/terraform_linux init 
