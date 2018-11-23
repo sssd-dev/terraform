@@ -36,4 +36,5 @@ resource "azurerm_virtual_machine_extension" "testagent" {
     "workspaceKey" : "${module.testworkspace.workspace_key}"
     }
     PROTECTED_SETTINGS
+  depends_on = ["module.testserver"]
 }
